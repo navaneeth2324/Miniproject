@@ -1,9 +1,9 @@
 # Contact Management System
 ![alt text](https://www.erp-information.com/wp-content/uploads/2015/02/Contact-manager.jpg)
 
-Build | Code Quality | Unity | [Git Inspector](using github.io option) | Code Quality
+Build | Code Quality | Unity | Code Quality | [Git Inspector](using github.io option)
 ------|----------|-------|--------------|---------|
-[![C/C++ CI Build Status](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp%20Build.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp%20Build.yml)|[![C/C++ CI](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp.yml)|[![C/C++ CI Unit Testing](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp%20Unity.yml/badge.svg?branch=master)](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp%20Unity.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/954b442249d1448eb29d964543614d5a)](https://www.codacy.com/gh/navaneeth2324/Miniproject/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=navaneeth2324/Miniproject&amp;utm_campaign=Badge_Grade)
+[![C/C++ CI Build Status](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp%20Build.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp%20Build.yml)|[![C/C++ CI](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp.yml)|[![C/C++ CI Unit Testing](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp%20Unity.yml/badge.svg?branch=master)](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp%20Unity.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/954b442249d1448eb29d964543614d5a)](https://www.codacy.com/gh/navaneeth2324/Miniproject/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=navaneeth2324/Miniproject&amp;utm_campaign=Badge_Grade)|[![C/C++ - Git Inspector](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp_git_inspector.yml/badge.svg?branch=master)](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp_git_inspector.yml)
 
 
 
