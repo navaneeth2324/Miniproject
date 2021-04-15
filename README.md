@@ -23,8 +23,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 ## Challenges Faced and How Was It Overcome
 
-1. Want to store my data in csv format. Geeks for Geeks helps me in this situation.
-2. Don't know how to edit files. Sanfoundry and Stackoverflow helps me to find the solution.
+
 
 
 
