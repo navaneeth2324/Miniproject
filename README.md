@@ -3,7 +3,7 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-
+[![C/C++ CI](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp.yml)
 
 
 
