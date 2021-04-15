@@ -3,7 +3,7 @@ PROJ_NAME = main
 SRC = src/create_contact.c\
 src/delete_contact.c\
 src/edit_contact.c\
-src/list_contact.c\
+src/list_contacts.c\
 src/menu.c\
 src/search_contacts.c\
 src\got.c
