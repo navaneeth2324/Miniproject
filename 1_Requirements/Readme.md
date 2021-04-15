@@ -9,14 +9,19 @@
 ## Advantages
 
 1.Organized - All contact information of a person is properly organized.
+
 2.Easy Modificaton - Any Contact can be easily modified or any changes in the contact information can be easily updatedcor deleted.
 
 
 ## Features
  1.Add New Contact - Adds a new contact information.
+
  2.List all Contacts - Listing all the stored Conatct information.
+
  3.Search Contact - Can search for a stord contact.
+
  4.Edit Contact - Edit the srtored contacct information.
+ 
  5.Delete Contact - Removing the contact information.
     
 ## SWOT ANALYSIS
