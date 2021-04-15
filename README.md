@@ -1,9 +1,9 @@
 # Contact Management System
 ![alt text](https://www.erp-information.com/wp-content/uploads/2015/02/Contact-manager.jpg)
 
-Build | Code Quality | Unity |Code Quality| [Git Inspector](using github.io option)
+Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI Build Status](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp%20Build.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp%20Build.yml)|[![C/C++ CI](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp.yml)|[![C/C++ CI Unit Testing](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp%20Unity.yml/badge.svg?branch=master)](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp%20Unity.yml)|[![C/C++ - Git Inspector](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp_git_inspector.yml/badge.svg?branch=master)](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp_git_inspector.yml)
+[![C/C++ CI Build Status](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp%20Build.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp%20Build.yml)|[![C/C++ CI](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/c-cpp.yml)|
 
 
 
