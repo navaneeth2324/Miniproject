@@ -5,7 +5,7 @@
  * @brief Function to search a contact from the list
  * 
  */
-status search_contacts()
+void search_contacts()
 {
     struct person p;
     FILE *f;
@@ -25,11 +25,11 @@ status search_contacts()
         {
             printf("\n\tDetail Information About %s",name);
             printf("\nName=%s\nAdress=%s\nMobile no=%ld\nE-mail=%s",p.name,p.address,p.mble_no,p.mail);
-            return SUCCESS;
+            
         }
             else
             printf("file not found");
-            return FAIL;
+            
 
     }
     fclose(f);

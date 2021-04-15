@@ -10,15 +10,9 @@ void test_createcontact(void){
     TEST_ASSERT_EQUAL(1,create_contact("Navaneeth","Bangarpet",7619259792,"navneeth023@gmail.com"));
 }
 
-void test_searchcontact(){
-    TEST_ASSERT_EQUAL(1,search_result("Navaneeth"));
-    TEST_ASSERT_EQUAL(0,search_result("Vishwas"));
-}
 
-/*void test_compare_name(void){
-    TEST_ASSERT_EQUAL(1,compare_name("sobin","Sobin"));
-    TEST_ASSERT_EQUAL(0,compare_name("sobin","rajan"));
-}*/
+
+
 
 int main(void)
 {

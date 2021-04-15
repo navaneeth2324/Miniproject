@@ -2,7 +2,7 @@
 #include "contact.h"
 #include<stdlib.h>
 
-status create_contact()
+void create_contact()
 {
         system("cls");
         FILE *f;

@@ -5,7 +5,7 @@
  * @brief Function to Modify/Edit the contact information
  * 
  */
-status edit_contact()
+void edit_contact()
 {
     int c;
     FILE *f;
@@ -56,12 +56,12 @@ status edit_contact()
             if(flag==1)
             {
                 printf("\n your data id modified");
-                return SUCCESS;
+              
             }
             else
             {
                     printf(" \n data is not found");
-                    return FAIL;
+                    
             }
             fclose(f);
 	}

@@ -47,7 +47,7 @@ void got();
  * @brief Function to Add a contact
  * 
  */
-status create_contact();
+void create_contact();
 /**
  * @brief Function to display all the contacts stored
  * 
@@ -57,7 +57,7 @@ void list_contacts();
  * @brief Function to Modify or edit the Contacts stored
  * 
  */
-status edit_contact();
+void edit_contact();
 /**
  * @brief Function to Remove the contact stored
  * 
@@ -67,7 +67,7 @@ void delete_contact();
  * @brief Function to Search for a contact 
  * 
  */
-status search_contacts();
+void search_contacts();
 
 
 #endif
