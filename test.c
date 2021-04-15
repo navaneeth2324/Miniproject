@@ -12,7 +12,10 @@ void test_createcontact(void){
 
 
 
-
+/*void test_compare_name(void){
+    TEST_ASSERT_EQUAL(1,compare_name("sobin","Sobin"));
+    TEST_ASSERT_EQUAL(0,compare_name("sobin","rajan"));
+}*/
 
 int main(void)
 {
