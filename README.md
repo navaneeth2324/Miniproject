@@ -2,7 +2,7 @@
 ![alt text](https://www.erp-information.com/wp-content/uploads/2015/02/Contact-manager.jpg)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
-------|----------|-------|--------------|---------|
+------|----------|-------|--------------|---------
 [![cppcheck-action](https://github.com/navaneeth2324/Miniproject/actions/workflows/cpp_check.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/cpp_check.yml)|
 
 
