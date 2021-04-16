@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
+#include<conio.h>
 #include "../inc/contact.h"
 
 void create_contact()
@@ -20,9 +21,8 @@ void create_contact()
         got(p.mail);
         fwrite(&p,sizeof(p),1,f);
         fflush(stdin);
-        printf("\nrecord saved");
+        printf("\n!!Contact saved");
         fclose(f);
-        return SUCCESS;
         printf("\nPress any key:");
         getch();
         system("cls");
@@ -49,7 +49,7 @@ void delete_contact()
             printf("\nfile opaning error");
 		else
         {
-            printf("Enter CONTACT'S NAME:");
+            printf("\nEnter CONTACT'S NAME:");
             got(name);
 
             fflush(stdin);
@@ -64,7 +64,7 @@ void delete_contact()
             fclose(ft);
             if(flag!=1)
             {
-                printf("\nNO CONACT'S RECORD TO DELETE.");
+                printf("\nNO SUCH CONTACT TO DELETE.");
                 remove("temp.txt");
             }
             else
@@ -75,7 +75,7 @@ void delete_contact()
 
             }
 	    }
-    }
+    } 
 
  printf("\nPress any key");
 
@@ -96,7 +96,7 @@ void edit_contact()
 		{
 
 			printf("CONTACT'S DATA NOT ADDED YET.");
-			exit(1);
+			//exit(1);
 
 
 		}
@@ -118,7 +118,7 @@ void edit_contact()
                     got(s.address);
                     printf("\nEnter phone no:");
                     scanf("%ld",&s.mble_no);
-                    printf("\nEnter e-mail:");
+                    printf("Enter e-mail:");
                     got(s.mail);
                     fseek(f,-sizeof(p),SEEK_CUR);
                     fwrite(&s,sizeof(p),1,f);
@@ -193,12 +193,13 @@ void list_contacts()
     f=fopen("project","rb");
     if(f==NULL)
     {
-        printf("\nfile opening error in listing :");
-        exit(1);
+        printf("\nNo contacts!");
+        //3menu();
     }
+    printf("\n----------------CONTACTS LIST-------------------------");
     while(fread(&p,sizeof(p),1,f)==1)
     {
-        printf("\n\n\n YOUR RECORD IS\n\n ");
+        
         printf("\nName=%s\nAdress=%s\nMobile no=%ld\nE-mail=%s",p.name,p.address,p.mble_no,p.mail);
 
 	    getch();
@@ -220,9 +221,10 @@ void menu()
     printf("\nMENU\n");
     printf("\n1.Add Contact\n2.List\n3.Exit\n4.Modify\n5.Search\n6.Delete\n");
     printf("\nEnter your Choice:");
-    int choice;                                         //choices between 0-5 for operations
-    scanf("%d",&choice);
-    switch(choice)
+    //int choice;                                         //choices between 0-5 for operations
+    //
+    //scanf("%d",&choice);
+    switch(getch())
     {
         case '1':
             create_contact();
@@ -248,7 +250,7 @@ void menu()
                 printf("\n Enter any key");
                 getch();
 
-             menu();
+    menu();
     }
 }
 
@@ -262,24 +264,24 @@ void search_contacts()
     f=fopen("project","rb");
     if(f==NULL)
     {
-        printf("\n error in opening\a\a\a\a");
-        exit(1);
+        printf("\n !No Contacts\a\a\a\a");
+        
     }
-    printf("\nEnter name of person to search\n");
-    got(name);
-    while(fread(&p,sizeof(p),1,f)==1)
-    {
-        if(strcmp(p.name,name)==0)
+    else{
+        printf("\nEnter name of person to search\n");
+        got(name);
+        while(fread(&p,sizeof(p),1,f)==1)
         {
-            printf("\n\tDetail Information About %s",name);
-            printf("\nName=%s\nAdress=%s\nMobile no=%ld\nE-mail=%s",p.name,p.address,p.mble_no,p.mail);
+            if(strcmp(p.name,name)==0)
+            {
+                printf("\n\tDetail Information About %s",name);
+                printf("\nName=%s\nAdress=%s\nMobile no=%ld\nE-mail=%s",p.name,p.address,p.mble_no,p.mail);
+                
+            }
             
         }
-            else
-            printf("file not found");
-            
-
     }
+    
     fclose(f);
     printf("\n Enter any key");
     getch();
