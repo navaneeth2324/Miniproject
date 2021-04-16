@@ -1,15 +1,15 @@
-name: Git Inspector
+name: GitInspector
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   inspect:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -33,3 +33,4 @@ jobs:
         echo "============ Git Inspector ==========="
         gitinspector.py -wTHl --format=text -f c,h,md,yml,* -x file:3_implementation/unity -x file:doc .
         gitinspector.py -wTHl --format=html -f c,h,md,yml,* -x file:3_implementation/unity -x file:doc . > ~/result.html
+        echo "======================================"
