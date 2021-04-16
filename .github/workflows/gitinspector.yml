@@ -2,14 +2,14 @@ name: Git Inspector
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   inspect:
 
-    runs-on: ubuntu-latest
+    runs-on: Windows-latest
 
     steps:
     - uses: actions/checkout@v2
