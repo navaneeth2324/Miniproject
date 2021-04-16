@@ -1,21 +1,14 @@
-PROJ_NAME = main
-
-SRC = src/create_contact.c\
-src/delete_contact.c\
-src/edit_contact.c\
-src/list_contacts.c\
-src/menu.c\
-src/search_contacts.c\
-src\got.c
-
-TEST = test.c\
-unity/unity.c
+PROJ_NAME = all
 
 BUILD_DIR = Build
 
-INC = -Iinc\
--Iunity
+SRC = main.c\
+	 src/functions.c
 
+
+INC = inc
+
+#To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
 ifdef OS
    RM = del /q
    FixPath = $(subst /,\,$1)
@@ -31,30 +24,14 @@ endif
 # Makefile will not run target command if the name with file already exists. To override, use .PHONY
 .PHONY : all test coverage run clean doc
 
-all:
-	gcc main.c $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC))
+all:$(BUILD_DIR)
+	gcc $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
 run: all
-	$(call FixPath,$(PROJ_NAME).$(EXEC))
+	$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
-test: $(SRC) $(TEST)
-	gcc $^ $(INC) -o $(call FixPath,test.$(EXEC))
-	./test.$(EXEC)
-
-coverage:
-	gcc -fprofile-arcs -ftest-coverage $(SRC) $(TEST) $(INC) -o $(call FixPath,test.$(EXEC))
-	./test.$(EXEC)
-	gcov -a test.c
-
-cppcheck:
-	cppcheck --enable=all $(SRC) main.c
-
-valgrind:
-	valgrind ./test.out
-
+$(BUILD_DIR):
+	mkdir $(BUILD_DIR)
 
 clean:
-	$(RM) *.$(EXEC)
-	$(RM) *.gcda
-	$(RM) *.gcno
-	$(RM) *.c.gcov
+	$(RM) $(call FixPath,$(BUILD_DIR)/*)

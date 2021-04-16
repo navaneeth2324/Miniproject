@@ -3,7 +3,7 @@
 #include<string.h>
 #include<stdlib.h>
 #include<windows.h>
-#include "inc/contact.h"
+#include "./inc/contact.h"
 
 
 int main()
