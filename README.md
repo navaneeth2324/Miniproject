@@ -30,7 +30,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 -------|---------|----------------|----------------|---------------|-------------|--------------
 `256637` | Navaneeth M  | Feature A, B etc    | X No     | X No   |X No   |X No          
 
-//## Challenges Faced and How Was It Overcome
+
 
 
 
