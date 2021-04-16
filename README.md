@@ -3,7 +3,8 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-|[![cppcheck-action](https://github.com/navaneeth2324/Miniproject/actions/workflows/cpp_check.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/cpp_check.yml)[![CI](https://github.com/navaneeth2324/Miniproject/actions/workflows/main.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/main.yml)
+|[![cppcheck-action](https://github.com/navaneeth2324/Miniproject/actions/workflows/cpp_check.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/cpp_check.yml)
+[![CI](https://github.com/navaneeth2324/Miniproject/actions/workflows/main.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/main.yml)
 
 
 
