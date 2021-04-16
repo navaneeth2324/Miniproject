@@ -25,7 +25,10 @@ struct person
     char mail[100];
     
 };
-
+/**
+ * @brief Function prototypes
+ * 
+ */
 void menu();
 void got();
 void create_contact();

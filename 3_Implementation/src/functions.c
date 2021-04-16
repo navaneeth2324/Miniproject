@@ -4,7 +4,10 @@
 #include <stdbool.h>
 // #include <conio.h>
 #include "../inc/contact.h"
-
+/**
+ * @brief Function to Create a contact object
+ * 
+ */
 void create_contact()
 {
         system("cls");
@@ -28,7 +31,10 @@ void create_contact()
         system("cls");
         menu();
 }
-
+/**
+ * @brief Function to delete a contact
+ * 
+ */
 void delete_contact()
 {
     struct person p;
@@ -83,7 +89,10 @@ void delete_contact()
     system("cls");
     menu();
 }
-
+/**
+ * @brief Functon to Edit the contact information.
+ * 
+ */
 void edit_contact()
 {
     int c;
@@ -185,7 +194,10 @@ void got(char *name)
       *(name+i)='\0';
 }
 
-
+/**
+ * @brief Function to view to list the contacts stored.
+ * 
+ */
 void list_contacts()
 {
     struct person p;
@@ -212,7 +224,10 @@ void list_contacts()
     menu();
 }
 
-
+/**
+ * @brief Function to diplay the main menu of the application
+ * 
+ */
 void menu()
 {
     system("cls");
@@ -254,7 +269,10 @@ void menu()
     }
 }
 
-
+/**
+ * @brief Function to search for a contact in the stored list 
+ * 
+ */
 void search_contacts()
 {
     struct person p;
