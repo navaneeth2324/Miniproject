@@ -15,13 +15,22 @@ Folder             | Description
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
 
+## Features:
+ID | Description 
+---|----------------------
+ 1 | Creating New Contacts  
+ 2 | Editing Contacts  
+ 3 | Listing Contacts 
+ 4 | Searching Contacts
+ 5 | Deleting Contacts
+
 ## Contributors List and Summary
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
 `256637` | Navaneeth M  | Feature A, B etc    | X No     | X No   |X No   |X No          
 
-## Challenges Faced and How Was It Overcome
+//## Challenges Faced and How Was It Overcome
 
 
 
