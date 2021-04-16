@@ -3,7 +3,7 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![cppcheck-action](https://github.com/navaneeth2324/Miniproject/actions/workflows/cpp_check.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/cpp_check.yml) [![CI](https://github.com/navaneeth2324/Miniproject/actions/workflows/main.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/main.yml)
+[![cppcheck-action](https://github.com/navaneeth2324/Miniproject/actions/workflows/cpp_check.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/cpp_check.yml) [![CI](https://github.com/navaneeth2324/Miniproject/actions/workflows/main.yml/badge.svg)](https://github.com/navaneeth2324/Miniproject/actions/workflows/main.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/954b442249d1448eb29d964543614d5a)](https://www.codacy.com/gh/navaneeth2324/Miniproject/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=navaneeth2324/Miniproject&amp;utm_campaign=Badge_Grade)
 
 
 

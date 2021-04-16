@@ -4,8 +4,6 @@
 #include<stdlib.h>
 #include<windows.h>
 #include "./inc/contact.h"
-
-
 int main()
 {
     menu();
